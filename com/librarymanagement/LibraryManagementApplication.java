@@ -9,7 +9,6 @@ import java.util.*;
 public class LibraryManagementApplication {
     private static JdbcConnection jdbcConnection = new JdbcConnection();
     public static void main(String [] args){
-
         try{
             // Displaying Please Log in or Register
             Scanner sc = new Scanner(System.in);
